@@ -9,7 +9,7 @@ root.geometry("800x500")
 frame1 = Frame(root, highlightbackground="black", highlightthickness=4,width=800, height=500, bd= 0)
 frame1.pack()
 
-photo = ImageTk.PhotoImage(Image.open("C:\\Users\\hp\\PycharmProjects\\Real-time_currency_converter\\currencyconverter.png"))
+photo = ImageTk.PhotoImage(Image.open("./currencyconverter.png"))
 img_label = Label(frame1,image=photo)
 img_label.pack()
 Convert_from = Label(root,font=('Helvetica',17,'bold'),text = " Convert from: ",fg="black",borderwidth=1,relief="solid").place(x = 135,y = 100)
